@@ -1,0 +1,215 @@
+.navbar-inverse .navbar-inner {
+	background: #1F1F1F !important; /* Old browsers */
+	background-color: #1F1F1F !important;
+	/*background: -moz-linear-gradient(top, #666666 0%, #5b5b5b 49%, #383838 100%); /* FF3.6+ */
+	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#666666), color-stop(49%,#5b5b5b), color-stop(100%,#383838)); /* Chrome,Safari4+ */
+	/*background: -webkit-linear-gradient(top, #666666 0%,#5b5b5b 49%,#383838 100%); /* Chrome10+,Safari5.1+ */
+	/*background: -o-linear-gradient(top, #666666 0%,#5b5b5b 49%,#383838 100%); /* Opera 11.10+ */
+	/*background: -ms-linear-gradient(top, #666666 0%,#5b5b5b 49%,#383838 100%); /* IE10+ */
+	/*background: linear-gradient(to bottom, #666666 0%,#5b5b5b 49%,#383838 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1F1F1F', endColorstr='#1F1F1F',GradientType=0 );
+	border: 0px !important;
+	padding: 0px !important;
+}
+
+body {
+	background-color: #000000;
+	background: #000000;
+	/*padding-top: 90px;*/
+}
+
+.radio {
+	color: #FFFFFF;
+	margin: -4px 0px 0px 0px !important;
+	font-size: 16px !important;
+	
+}
+
+input { 
+	border-color: #000000 !important;
+}
+
+#update-page, #success-page {
+	color: #FFFFFF;
+}
+#update-page p, #success-page p {
+	color: #CCCCCC;
+	
+}
+
+#top-bar {
+	width: 100%;
+	background-color: #1F1F1F;
+}
+
+#content-block {
+	width: 100%;
+	float: left;
+	background-color: #000000;
+	background: #000000;
+}
+
+#content-wrapper {
+	margin-right: 250px;
+	height: 450px;
+	overflow-y: auto;
+}
+
+#side-block {
+	float: left;
+	background-color: #1F1F1F;
+	background: #1F1F1F;
+	width: 250px;
+	margin-left: -250px;
+}
+
+.borders {
+	border-right: 1px solid #424242;
+}
+
+.widget {
+	height: 70px !important;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.inner-padding {
+	padding: 0px 20px 0px 20px;
+	margin: 0px 2px 0px 2px;
+}
+
+.inner-padding-two {
+	padding: 13px 20px 13px 20px;
+	margin: 0px 2px 0px 2px;
+	
+}
+
+@media (max-width: 979px) {
+	.content-padding {
+		padding: 0px 20px 20px 20px;
+	}
+}
+
+@media (min-width: 980px) {
+	.content-padding {
+		padding: 20px 20px 20px 20px;
+	}
+}
+
+
+
+
+
+.bottom-border {
+	border-bottom: 4px solid #34CB02;
+}
+
+.widget-text {
+	line-height: 66px;
+	font-size: 20px;
+}
+
+.content-text {
+	font-size: 20px;
+}
+
+.label-text {
+	font-size: 12px;
+}
+
+.accordion-heading a {
+	color: #FFFFFF;
+}
+
+.accordion-toggle.collapsed {
+	color: #FFFFFF;
+	background: #4C4C4C !important;
+	background-color: #4C4C4C !important;
+}
+
+.accordion-toggle {
+	color: #FFFFFF;
+	background: #009DDC !important;
+	background-color: #009DDC !important;
+}
+
+.accordion-inner {
+	background: transparent;	
+	border: 0px;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+.accordion-group {
+	border: 0px !important;
+}
+
+.icon {
+	width: 23px;
+	height: 22px;
+}
+
+.icon-phone {
+	background: url('img/phone_icon-1.png');
+}
+
+.icon-weather {
+	background: url('img/weather_icon-1.png')
+}
+
+.icon-clock {
+	background: url('img/clock_icon-1.png');
+}
+
+.icon-minus {
+	background: url('img/minus_icon-1.png');
+}
+
+.icon-plus {
+	background: url('img/plus_icon-1.png');
+}
+
+.margin-right {
+	margin: 10px 20px 0 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.help {
+	color: #FFFFFF;
+	padding: 20px 20px;
+	background: #1F1F1F;
+	background-color: #1F1F1F;
+	font-style: italic;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin: 0 0 10px 0;
+}
+
+.script {
+	color: #34CB02;
+	padding: 0px 0px 10px 0px;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.form-element {
+	padding: 20px 0 1px 0;
+	background: #1F1F1F;
+	background-color: #1F1F1F;
+	margin: 0 0 10px 0;
+}
+
+.form-element label {
+	color: #FFF;
+	font-size: 18px;
+	font-style: italic;
+}
+
+.btn-success {
+	background-color: #51A351 !important;
+	background: #51A351 !important;
+	color: #FFFFFF !important;
+}
